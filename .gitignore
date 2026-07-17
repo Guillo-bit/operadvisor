@@ -1,0 +1,51 @@
+# ============================================================
+# OperadvAIsor - .gitignore
+# Se va a ir ampliando conforme evolucione el proyecto.
+# ============================================================
+
+# ----------
+# Python
+# ----------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --------------------
+# Variables de entorno
+# --------------------
+.env
+.env.*
+*.key
+*.pem
+
+# --------------------
+# Modelos de IA
+# --------------------
+models/
+*.gguf
+*.bin
+*.safetensors
+
+# ------------------------------
+# Bases vectoriales y datos
+# ------------------------------
+chroma/
+vector_db/
+*.sqlite3
+
+# --------------------
+# Node.js (si se usa)
+# --------------------
+node_modules/
+
+# --------------------
+# Visual Studio Code
+# --------------------
+.vscode/
+
+# --------------------
+# Sistema operativo
+# --------------------
+.DS_Store
+Thumbs.db
